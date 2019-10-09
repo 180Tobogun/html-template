@@ -66,4 +66,61 @@
   display: flex;
   height: 893px;
   background-color: #3c3c3c;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  padding-top: 247px;
 }
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-name-h2 {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.main-color-text {
+  color: #18cfab;
+}
+
+.text-name-h1 {
+  font-size: 79px;
+  color: #ffffff;
+}
+
+.text-name-h3 {
+  color: #d4d4d4;
+  font-size: 34px;
+}
+
+.btn {
+  width: 166px;
+  height: 65px;
+  /*border: none;*/
+}
+
+.btn-left {
+  background-color: #18cfab;
+  color: #eaf9f5;
+  border-top: 5px solid #EAF9F4;
+}
+
+
+.btn-right {
+  background-color: #00cbf6;
+  color: #ddf5fd;
+  border-top: 5px solid #EAF9F4;
+}
+
