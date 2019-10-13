@@ -115,6 +115,7 @@
   background-color: #18cfab;
   color: #eaf9f5;
   border-top: 5px solid #EAF9F4;
+  font-size: 13px;
 }
 
 
@@ -122,6 +123,7 @@
   background-color: #00cbf6;
   color: #ddf5fd;
   border-top: 5px solid #EAF9F4;
+  font-size: 13px;
 }
 
 .button-container {
@@ -167,6 +169,7 @@
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  padding-bottom: 59px;
 }
 
 .text-inside {
@@ -175,6 +178,9 @@
   justify-content: center;
   align-self: center;
   color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  right: 36px;
 }
 
 .text-inside-dark {
@@ -183,4 +189,7 @@
   justify-content: center;
   align-self: center;
   color: #18cfab;
+  font-size: 20px;
+  position: relative;
+  right: 36px;
 }
