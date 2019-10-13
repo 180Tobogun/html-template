@@ -193,3 +193,34 @@
   position: relative;
   right: 36px;
 }
+
+.amazing-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 831px;
+  flex-wrap: wrap;
+}
+
+
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+}
+
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+/ / Default to full width padding: 0.8 em 1.2 em;
+  overflow: hidden;
+/ / Or flex might break list-style: none;
+  padding-top: 104px;
+}
+
+.Rtable--3cols > .Rtable-cell {
+  width: 33.33%;
+}
