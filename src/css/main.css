@@ -201,6 +201,9 @@
   align-items: center;
   height: 831px;
   flex-wrap: wrap;
+  margin-left: 388px;
+  margin-right: 414px;
+
 }
 
 
@@ -218,8 +221,13 @@
   overflow: hidden;
 / / Or flex might break list-style: none;
   padding-top: 104px;
+  font-size: 14px;
 }
 
 .Rtable--3cols > .Rtable-cell {
   width: 33.33%;
+}
+
+.font-size-text-amazing {
+  font-size: 18px;
 }
