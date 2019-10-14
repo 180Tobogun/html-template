@@ -15,10 +15,6 @@
   height: 100%;
 }
 
-.logo-container {
-
-}
-
 .header-content-container {
   justify-content: space-between;
   align-items: center;
@@ -197,8 +193,40 @@
   padding-left: 52px;
   margin-top: 53px;
   margin-bottom: 53px;
+  font-size: 14px;
 }
 
 .font-size-text-amazing {
   font-size: 18px;
 }
+
+.font-size-text-amazing:hover {
+  color: #18cfab;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.amazing-block-name {
+  position: relative;
+  font-size: 36px;
+  margin-top: 101px;
+  margin-bottom: 37px;
+}
+
+
+
+.amazing-img-item {
+  padding-right: 34px;
+}
+
+.hr-line {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.hr-underline {
+  position: relative;
+  right: 12px;
+}
+
+
