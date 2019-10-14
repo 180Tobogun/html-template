@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>My 1st html-mock</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,10 +11,15 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
   <meta name="theme-color" content="#fafafa">
@@ -167,7 +172,43 @@
     <h2 class="about-block-name">About Our Company</h2>
     <hr class="hr-line hr-underline about-hr" align="center" width="77" size="2" color="#18cfab"/>
     <hr class="hr-line hr-space-bottom about-hr" align="center" width="77" size="2" color="#18cfab"/>
+
+
+    <ul class="nav nav-pills nav-pills-block" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="pill" href="#history">OUR HISTORY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#biography">OUR BIOGRAPHY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#skills">OUR SKILLS</a>
+      </li>
+    </ul>
+
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="history" class="container tab-pane active"><br>
+        <h3>OUR HISTORY</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+      </div>
+      <div id="biography" class="container tab-pane fade"><br>
+        <h3>OUR BIOGRAPHY</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+      </div>
+      <div id="skills" class="container tab-pane fade"><br>
+        <h3>OUR SKILLS</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam.</p>
+      </div>
+    </div>
   </div>
+
+
+</div>
 
 
 </div>
