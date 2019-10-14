@@ -229,4 +229,25 @@
   right: 12px;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 677px;
+  background-color: #090f14;
+}
+
+.about-block-name {
+  position: relative;
+  font-size: 36px;
+  margin-top: 101px;
+  margin-bottom: 37px;
+  color: #ffffff;
+}
+
+.about-hr {
+  margin-left: 140px;
+}
+
 
